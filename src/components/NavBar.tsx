@@ -2,7 +2,7 @@ import { useState } from "react";
 import { diContainer } from "../services/Container";
 import { IEventManager, EventData } from "../services/EventManager";
 import useContextTheme from "../hooks/useContextTheme";
-import { Constants } from "../services/constants";
+import { Constants } from "../services/Constants";
 
 const NavBar = () => {
   const [theme, setTheme] = useState("dark");
