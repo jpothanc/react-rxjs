@@ -58,6 +58,7 @@ const Contents = () => {
             <a
               className="my-link"
               href="https://medium.com/@kaljessy/react-dependency-injection-using-inversify-b4e1d63abc72"
+              target="_blank"
             >
               Inversify React
             </a>
@@ -105,6 +106,7 @@ const Contents = () => {
             <a
               className="my-link"
               href="https://react.dev/reference/react/useContext"
+              target="_blank"
             >
               React useContext
             </a>
