@@ -62,6 +62,14 @@ const Contents = () => {
             >
               Inversify React
             </a>
+            <br></br>
+            <a
+              className="my-link"
+              href="https://medium.com/@kaljessy/react-state-management-using-rxjs-58a4d523d611"
+              target="_blank"
+            >
+              React State Management Using Rxjs
+            </a>
           </p>
         </div>
         <hr></hr>
