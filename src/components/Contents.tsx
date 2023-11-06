@@ -1,6 +1,6 @@
 import useContextTheme from "../hooks/useContextTheme";
 import useRxjsTheme from "../hooks/useRxjsTheme";
-const darkBgColor = "rgb(48, 49, 49)";
+import { getThemeColor } from "../services/helper";
 
 const Contents = () => {
   const { mode } = useContextTheme();
@@ -13,14 +13,13 @@ const Contents = () => {
         <div
           className="box-content-right"
           style={{
-            background:
-              rxjsMode == "dark" ? darkBgColor : "rgba(255,255,255,0.5)",
+            background: getThemeColor(rxjsMode, false),
           }}
         >
           <p
             className="basic-text"
             style={{
-              color: rxjsMode == "dark" ? "#E3F2FD" : darkBgColor,
+              color: getThemeColor(rxjsMode, true),
             }}
           >
             {" "}
@@ -76,13 +75,13 @@ const Contents = () => {
         <div
           className="box-content-right"
           style={{
-            background: mode == "dark" ? darkBgColor : "rgba(255,255,255,0.5)",
+            background: getThemeColor(mode, false),
           }}
         >
           <p
             className="basic-text"
             style={{
-              color: mode == "dark" ? "#E3F2FD" : darkBgColor,
+              color: getThemeColor(mode, true),
             }}
           >
             <p className="blue-text">

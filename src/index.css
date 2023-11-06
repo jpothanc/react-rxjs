@@ -79,6 +79,8 @@ body {
 }
 .box-content-left__bottom {
   background-color: rgb(48, 49, 49);
+  color: rgba(255, 255, 255, 0.5);
+
   border: none;
   flex: 25;
   padding: 50px;
